@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: '微软雅黑';
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    line-height: 30px;
+    background: red;
+    opacity: .7;
+    justify-content: space-between;
+}
+
+.right-corner {
+    width: 25%;
+    border-radius: 15px;
+    background: #333;
+    opacity: 0.5;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    margin-left: 10px;
+}
+
+.two {
+    margin-right: 10px;
+}
+
+.title {
+    margin-left: 5%;
+}
+
+.search {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: red;
+    opacity: .7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input {
+    /*flex: 1;*/
+    margin-right: 7%;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.search p {
+    font-size: 14px;
+    margin-left: 3%;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: row;
+}
+
+.swiper-slide ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-slide ul li {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 17%;
+    margin-top: 20px;
+}
+
+.swiper-slide ul li i.icon {
+    background: lightpink;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+}
+
+.swiper-slide ul li span {
+    color: #333;
+}
+
+section {
+    flex: 1;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.scrolls {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.scroll {
+    width: 600px;
+    display: flex;
+}
+
+dl {
+    width: 100px;
+    /*margin-left: 10px;*/
+}
+
+dl dt p {
+    color: #000;
+}
+
+dl dt span {
+    color: #ccc;
+    font-size: 12px;
+}
+
+h5 {
+    color: #000;
+    font-size: 18px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.list {
+    overflow: hidden;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.list dl dt p {
+    color: #000;
+}
+
+.list dl dt span {
+    color: #ccc;
+    font-size: 12px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+.img ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+
+.img ul li {
+    width: 25%;
+    height: 40px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img ul li i.icon {
+    color: #000;
+    font-size: 18px;
+}
+
+.img ul li span {
+    color: #000;
+}
